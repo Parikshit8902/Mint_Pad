@@ -10,11 +10,10 @@ Mint_Pad is a lightweight, clean, and simple code editor built specifically for 
 
 * **Multi-Language Support:** Write and run code in **C**, **C++**, and **Python**. The editor automatically detects language from file extensions (`.c`, `.cpp`, `.py`) when opening files and applies appropriate syntax highlighting.
 * **Syntax Highlighting:** Leverages `GtkSourceView` for clear and accurate highlighting of keywords, strings, comments, and more for supported languages.
-* **Multiple Tabs:** Open and manage multiple files simultaneously using a tabbed interface (`Gtk::Notebook`). Each tab features a close button ('X').
+* **Multiple Tabs:** Open and manage multiple files simultaneously using a tabbed interface.
 * **Core Editor Functionality:**
     * Line Numbers
-    * Current Line Highlighting (disabled in dark mode due to theme conflicts)
-    * Auto Indentation (2 spaces)
+    * Adjustable auto indentation 
     * Bracket Matching Highlight
 * **File Management:**
     * **New:** Create new, empty files in separate tabs.
@@ -25,16 +24,21 @@ Mint_Pad is a lightweight, clean, and simple code editor built specifically for 
     * **Save Prompts:** The editor prompts you to save unsaved changes before closing a tab or quitting the application.
 * **Build & Run:**
     * Simple "Run" button to compile (C/C++) or interpret (Python) the code in the current tab.
-    * Execution occurs in a **separate `gnome-terminal` window**, preventing the editor from freezing.
+    * Execution occurs in a **separate `gnome-terminal` window**.
     * The terminal automatically pauses after execution until you press Enter.
 * **Customizable Interface:**
     * **Light/Dark Theme:** Toggle between a default light theme and a custom dark theme via the File menu.
-    * **Font Preferences:** Choose your preferred editor font and size via the Preferences dialog.
+    * **Font Preferences:** Choose your preferred editor font and size via the Preferences dialogue.
     * **Status Bar:** Displays the current cursor line and column number.
-* **Minimalist Design:** Built with `GTKmm 3.0` for a native Linux look and feel, using a modern `HeaderBar` interface.
+* **Minimalist Design:** Built with `GTKmm 3.0` for a native Linux look and feel.
 
 ---
+## 📁 Files
 
+* **main.cpp** - Main program file.
+* **dark.css** - CSS for enabling dark theme.
+* **Makefile** - For buiding.
+---
 ## 🔧 Dependencies
 
 Mint_Pad requires the following libraries and tools to be installed:
