@@ -37,7 +37,7 @@ Mint_Pad is a lightweight, clean, and simple code editor built specifically for 
 
 * **main.cpp** - Main program file.
 * **dark.css** - CSS for enabling dark theme.
-* **Makefile** - For buiding.
+* **Makefile** - For building the project.
 ---
 ## 🔧 Dependencies
 
