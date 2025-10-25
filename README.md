@@ -89,6 +89,7 @@ Mint_Pad requires the following libraries and tools to be installed:
     make
     ```
     This will compile the `main.cpp` file and create an executable named `mint_pad`.
+    If you've made any changes in the main.cpp or dark.css, make sure to run 'make clean' first, and then run 'make'.
 
 ---
 
