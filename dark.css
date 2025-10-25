@@ -1,0 +1,70 @@
+/* Default for all widgets */
+* 
+{
+  background-color: #3c3c3c;
+  color: #d4d4d4;
+}
+
+/* Styling the main text editor area to be darker */
+#my-ide-editor textview,
+#my-ide-editor text 
+{
+  background-color: #2b2b2b;
+  color: #d4d4d4;
+}
+
+/* Selection color for selected text */
+#my-ide-editor text selection,
+#my-ide-editor textview selection 
+{
+  background-color: #4a4d51;
+  color: #ffffff;
+}
+
+/* highlighting the current line (cursor line) */
+#my-ide-editor textview.cursor-line,
+#my-ide-editor text.cursor-line 
+{
+  background-color: #4a4d51;
+  color: inherit; /* keep text visible */
+}
+
+/* Header bar styling */
+headerbar 
+{
+  /*background-color: #2b2b2b; */
+  border: none;
+  box-shadow: none;
+}
+
+/* Button styling */
+button 
+{
+  background-image: none;
+  /*background-color: #4f4f4f; */
+  border: 1px solid #606060;
+  box-shadow: none;
+}
+
+button:hover 
+{
+  background-color: #606060;
+}
+
+/* Style dropdown menus, combo boxes, and popovers */
+combobox,popover 
+{
+  background-color: #3c3c3c;
+}
+
+/* Scrollbar styling */
+scrollbar, scrollbar trough 
+{
+  background-color: #2b2b2b;
+}
+
+scrollbar slider 
+{
+  background-color: #555;
+  border-radius: 4px;
+}
