@@ -2,7 +2,7 @@
 
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)](https://github.com/your-username/mint-pad) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
 
-Mint_Pad is a lightweight, clean, and simple code editor built specifically for Linux systems using C++ and the GTKmm 3.0 toolkit. It provides essential features for writing and running C, C++, and Python code without the bloat of a full-fledged IDE.
+Mint_Pad is a lightweight, clean, and simple code editor built specifically for Linux systems using C++ and the GTKmm 3.0 toolkit. It provides essential features for writing and running C, C++, and Python code without the bloat of a full-fledged IDE. It is a personal project, created to ease the process of writing and running code from the same user space.
 
 ---
 
