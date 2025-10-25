@@ -51,6 +51,13 @@ Mint_Pad requires the following libraries and tools to be installed:
 
 ---
 
+## 🔨 Currently working on
+* **Dark Theme** - The current line remains white even in dark theme, most probably due to GTK native theme overriding CSS rules.
+* **Multiple Themes** - Various colours depending upon type of project (cool, warm, energetic, etc.)
+* **Adding support for other languages** - Rust, Java, Javascript, HTML...
+---
+
+
 ## ⚙️ Installation & Building
 
 1.  **Clone the repository:**
@@ -91,11 +98,3 @@ After building, run the IDE from the project directory:
 
 ```bash
 ./mint_pad
-
----
-
-## 🔨 Currently working on
-* **Dark Theme** - The current line remains white even in dark theme, most probably due to GTK native theme overriding CSS rules.
-* **Multiple Themes** - Various colours depending upon type of project (cool, warm, energetic, etc.)
-* **Adding support for other languages** - Rust, Java, Javascript, HTML...
- ---
