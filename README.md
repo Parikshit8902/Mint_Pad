@@ -60,7 +60,7 @@ Mint_Pad requires the following libraries and tools to be installed:
 
 ## ⚙️ Installation & Building
 
-1.  **Clone the repository.**
+1.  **Clone the repository or download the ZIP file.**
 
 2.  **Install Dependencies:**
 
