@@ -61,11 +61,6 @@ Mint_Pad requires the following libraries and tools to be installed:
 ## ⚙️ Installation & Building
 
 1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/mint-pad.git](https://github.com/your-username/mint-pad.git)
-    cd mint-pad
-    ```
-    *(Replace with your actual repository URL)*
 
 2.  **Install Dependencies:**
 
