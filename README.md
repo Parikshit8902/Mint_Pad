@@ -13,7 +13,7 @@ Mint_Pad is a lightweight, clean, and simple code editor built specifically for 
 * **Multiple Tabs:** Open and manage multiple files simultaneously using a tabbed interface.
 * **Core Editor Functionality:**
     * Line Numbers
-    * Adjustable auto indentation 
+    * Auto Indentation 
     * Bracket Matching Highlight
 * **File Management:**
     * **New:** Create new, empty files in separate tabs.
