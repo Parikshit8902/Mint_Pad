@@ -95,6 +95,3 @@ After building, run the IDE from the project directory:
 
 ```bash
 ./mint_pad
-```
----
-![SS]("C:/Users/Student/Pictures/Screenshots/screenshot.png")
